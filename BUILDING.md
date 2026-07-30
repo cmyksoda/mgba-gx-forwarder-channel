@@ -11,7 +11,7 @@ This channel has three:
 
 | content | size | what it is |
 |---|---:|---|
-| 0 | ~1.15 MB | `00000000.app` — the banner archive |
+| 0 | 627,584 | `00000000.app` — the banner archive |
 | 1 | 138,752 | NAND loader stub. `BootIndex` points here. Unmodified, and byte-identical to the one in Tantric's FCEUGX and Snes9xGX channels (`e99125ee169e…`). |
 | 2 | 934,656 | The forwarder — scans SD/USB for `boot.dol` and launches it. Patched, see below. |
 
@@ -87,24 +87,68 @@ at −34 (Luigi's sprite is 4px taller).
 
 ## Textures
 
-| | format | size |
-|---|---|---|
-| banner `Background` | RGBA8 | 512×332 |
-| banner `Logo` | RGBA8 | 456×128 |
-| banner `Controller` | RGBA8 | 256×136 |
-| banner `Stripe` | RGB5A3 | 830×200 |
-| banner `TitleBar` | RGB5A3 | 104×64 |
-| banner `Bars` | RGB5A3 | 8×20 |
-| banner characters | RGB5A3 | 128×128 (Fawful), 120×120 (others) |
-| icon everything | RGB5A3 | 256×96, 120×48, 16×32 (Mario), 16×36 (Luigi), 16×16 |
+| | format | size | bytes |
+|---|---|---|---:|
+| banner `Background` | RGB565 | 512×332 | 340,032 |
+| banner `Logo` | RGBA8 | 456×128 | 233,536 |
+| banner `Controller` | RGBA8 | 256×136 | 139,328 |
+| banner `Stripe` | CI8, 33-colour palette | 830×200 | 166,592 |
+| banner `TitleBar` | CI8, 28-colour palette | 104×64 | 6,816 |
+| banner `Bars` | RGB5A3 | 8×20 | 384 |
+| banner `Fawful01–10` | CI8, 26-colour shared palette | 128×128 | 16,544 ea |
+| banner `AWars01–10` | CI8, 27-colour shared palette | 120×120 | 14,560 ea |
+| banner `Samus01–10` | CI4, 15-colour shared palette | 120×120 | 7,328 ea |
+| banner `Lucas01–08` | CI4, 14-colour shared palette | 120×120 | 7,328 ea |
+| icon everything | RGB5A3 | 256×96, 120×48, 16×32 (Mario), 16×36 (Luigi), 16×16 | |
 
-**Keep both dimensions a multiple of 4.** GX tiles these formats in 4×4 blocks.
+**Keep both dimensions a multiple of 4.** GX tiles RGB5A3/RGB565/RGBA8 in 4×4 blocks;
+**CI8 is 8×4 and CI4 is 8×8**, so palettized textures want a width that is a multiple of 8.
 `TPL.FromImage` will happily accept 15×36 and write `width=15` into the header.
 (`Stripe` at 830×200 is inherited and renders fine, so this is a rule to follow rather
 than a proven hard failure — but don't add new violations.)
 
-Use RGBA8 for smooth gradients and RGB5A3 for pixel art; RGB5A3 is 5 bits per channel
-and will band a gradient badly.
+Format guidance: **RGB565 for opaque images** (6 bits of green, strictly better than
+RGB5A3 when you don't need alpha — check that the source has no partial-alpha pixels
+first), RGBA8 where you need smooth alpha, and **CI4/CI8 for anything with few colours**.
+
+## Banner size limit — read this before adding art
+
+**Total uncompressed banner memory across all installed channels is a hard constraint.**
+Exceed it and the Wii Menu slows to a crawl and then hard-freezes while you page the
+channel grid with `+`/`-`. It is not a brick — power-cycling recovers — but it is fatal to
+usability, and it is *not* detectable by any structural check.
+
+The failure needs two large banners installed together. Original v1 measurements:
+
+| installed pair | uncompressed banners | freeze |
+|---|---|---|
+| FCEUGX + Snes9xGX | 1.39 + 2.57 MB | no |
+| FCEUGX + mGBA GX v1 | 1.39 + 2.57 MB | no |
+| Snes9xGX + mGBA GX v1 | **2.57 + 2.57 MB** | **yes** |
+
+Roughly: one ~2.5 MB banner is survivable, two are not. This channel now ships at
+**1,364,864 bytes uncompressed**, just under FCEUGX's 1,388,896 — pick a budget like that
+for anything new. Note this is not really a defect in any one WAD: Snes9xGX is also
+2.57 MB, so *any* second Tantric-style channel would have triggered it.
+
+### Halving a banner without touching the art
+
+Game sprite art has very few colours, so palettizing is close to free. Every character
+sprite here has **under 32 colours**, which is why the v2 banner is 47% smaller than v1
+while every sprite decodes **pixel-identical**:
+
+- Dimensions stay the same, so **no `brlyt` pane geometry or `brlan` edits are needed** —
+  texture format is invisible to the layout.
+- Use **one shared palette for all frames of a character**. They are frames of the same
+  sheet, so the union still fits in 16 (CI4) or 256 (CI8) entries. This makes `RLTP` frame
+  swapping safe by construction: whichever palette the runtime binds, the pixels match.
+- Palette entries are RGB5A3. Collapse every fully transparent pixel onto one entry.
+- Verify by decoding the result back (`TPL.Load(...).ExtractTexture()`) and comparing
+  every pixel against the original. Abort the build on any mismatch.
+
+Cropping transparent padding is a much weaker lever here (344 KB versus 866 KB) *and* it
+forces pane geometry edits, since the panes use `origin=Center` with full 0→1 texcoords.
+Palettize first; crop only if still over budget.
 
 ## Rebuilding the WAD
 
@@ -125,7 +169,20 @@ explicitly `ReplaceFile` that node or the WAD keeps the old image.
 Other API notes: `ChangeChannelTitles()` takes exactly **one** string, which it fans out
 to all 8 language slots — passing 8 throws. And in PowerShell, `return $bytes` from a
 function unrolls the array and binds to the wrong overload; use `return ,$bytes` and cast
-with `[byte[]]` at the call site.
+with `[byte[]]` at the call site. PowerShell also wraps `byte[]` and `Join-Path` results in
+`PSObject`, which reflection `Invoke` refuses to convert — prefer libWiiSharp's file-path
+overloads (`U8.Load(string)`, `TPL.Load(string)`, `ReplaceFile(int, string, bool)`).
+
+**`libWiiSharp.Lz77` is not reliable on this data.** Its methods are instance, not static,
+and `Decompress(inFile, outFile)` produced a file of the correct length that was **entirely
+zero-filled** — which then failed `U8.Load` with "Invalid Magic!". Write your own type-0x10
+LZ77 codec instead (4096-byte window, match length 3–18, flag byte MSB-first, 1 = back
+reference); a greedy encoder with a 3-byte-prefix hash chain round-trips Tantric's banner
+byte-exact and lands within 0.4% of the original tooling's compressed size.
+
+The layout inside `banner.bin` / `icon.bin` is: `IMD5` header (32 bytes), then the ASCII
+magic **`LZ77`** (4 bytes), then the `0x10` stream. So the compressed data starts at offset
+**36**, while the IMD5 length and MD5 cover everything from offset 32 (magic included).
 
 ## Verify before installing
 
@@ -170,9 +227,21 @@ libpng, and still scans both SD and USB.
 Title ID     0001000147424758  ("GBGX")
 Boot IOS     58
 Region       Free
-NAND blocks  18
+NAND blocks  13
 Looks for    apps/mGBAGX/boot.dol   on SD or USB
 ```
+
+## Banner sound
+
+`sound.bin` is a `BNS`: NGC-DSP ADPCM, mono, looping, **32 kHz**, 480,000 samples (15.000 s).
+
+32 kHz is the Wii DSP's native mixer rate. CustomizeMii will happily carry a 44.1 kHz
+source straight through into the BNS — Tantric's two channels both use 22.05 kHz, so
+resample before converting rather than leaving it at 44.1.
+
+The BNS `INFO` chunk stores the sample rate as a `u16` at offset `+12` from the chunk
+start. Sample count divided by ADPCM data bytes is always exactly **1.75** (14 samples per
+8-byte frame); if you compute a different ratio you have mis-read the codec field.
 
 ---
 

@@ -18,7 +18,7 @@
 
 | Title ID | Region | NAND Blocks |
 |---|---|---|
-| GBGX (0001000147424758) | Free | 18 |
+| GBGX (0001000147424758) | Free | 13 |
 
 ## Install
 
@@ -86,7 +86,7 @@ The banner sound is [this chiptune loop](https://www.looperman.com/loops/detail/
 
 ## License
 
-GPLv3 — see `LICENSE.txt`. This channel is derived from GPL'd work: the forwarder from
+GPLv3 — see [`LICENSE`](LICENSE). This channel is derived from GPL'd work: the forwarder from
 [FCE Ultra GX](https://github.com/dborth/fceugx) and the banner/icon from
 [Snes9x GX](https://github.com/dborth/snes9xgx). Every modification is documented in
 [BUILDING.md](BUILDING.md), which also covers rebuilding the WAD from the assets here.
@@ -101,9 +101,4 @@ GPLv3 — see `LICENSE.txt`. This channel is derived from GPL'd work: the forwar
 | `splash/` | forwarder loading screens (4:3 and 16:9) |
 | `BUILDING.md` | how to rebuild, and what was changed in the GPL'd components |
 
-<sub><sup>There is one(1) unused silly texture leftover from the Snes9x GX forwarder, can you find it?</sup></sup>
-
-### Tools Used
-- **CustomizeMii 3.1.1** by **Leathl**
-- **libWiiSharp 0.2.1** by **Leathl**
-- **Benzin 2.1.12BETA** by **SquidMan (Alex Marshall), comex, and megazig, © 2009 HACKERCHANNEL**
+<sub><sup>There is one(1) unused silly texture leftover from the Snes9x GX forwarder, can you find it?</sup></sub>
