@@ -80,7 +80,8 @@ The banner sound is [this chiptune loop](https://www.looperman.com/loops/detail/
 
 ### Other graphics
 
-- The banner background is my own work.  
+- `/banner/Background.png` and `/banner/Stripe.png` are my own work.
+- `/icon/Background.png` is sprite art ripped from Mario & Luigi, but the edits made to make it loop seamlessly and the stripes at the bottom are my additions.
 - Game Boy Advance logo is the intellectual property of Nintendo.  
 - All other graphics not already mentioned are royalty-free with no attribution required.
 
