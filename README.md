@@ -27,7 +27,7 @@
 ### Inspiration/Channel forwarded to
 
 - [**mGBA-GX**](https://github.com/nateynaate/mgba-gx) by nateynatee/daillou et al. Logo is designed by them as well.
-- Based on **VBA GX** by **Tantric**
+- Based on [**VBA GX**](https://github.com/dborth/vbagx) by **Tantric**
 - Powered by [**mGBA**](https://github.com/mgba-emu/mgba) by **endrift** and contributors
 
 ### Channel Base
