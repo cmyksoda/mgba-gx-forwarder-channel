@@ -100,6 +100,9 @@ GPLv3 — see `LICENSE.txt`. This channel is derived from GPL'd work: the forwar
 | `layout/` | `.brlyt`/`.brlan` layouts and animations extracted from the released WAD, plus their Benzin XML sources |
 | `splash/` | forwarder loading screens (4:3 and 16:9) |
 | `BUILDING.md` | how to rebuild, and what was changed in the GPL'd components |
+
+<sub><sup>There is one(1) unused silly texture leftover from the Snes9x GX forwarder, can you find it?</sup></sup>
+
 ### Tools Used
 - **CustomizeMii 3.1.1** by **Leathl**
 - **libWiiSharp 0.2.1** by **Leathl**
