@@ -1,5 +1,16 @@
 # mGBA GX Channel Forwarder
 
+## Screenshots
+
+| 4:3 Icon | 4:3 Banner |
+| ------------- | ------------- |
+| <img width="640" height="478" alt="0000000100000002_2026-07-30_02-00-12" src="https://github.com/user-attachments/assets/ed1ceda5-fcef-49bb-b8c7-d08d02677a3d" /> | <img width="640" height="478" alt="0000000100000002_2026-07-30_02-00-26" src="https://github.com/user-attachments/assets/1766e59b-4658-4374-b675-0933bf3ecbf2" />
+
+
+| 16:9 Icon | 16:9 Banner |
+| ------------- | ------------- |
+| <img width="834" height="456" alt="0000000100000002_2026-07-30_01-58-47" src="https://github.com/user-attachments/assets/b6f45811-2def-4784-b620-e398601608a6" /> | <img width="834" height="456" alt="0000000100000002_2026-07-30_01-58-57" src="https://github.com/user-attachments/assets/148f3f8a-6c91-4929-b686-d50b261116f7" />
+
 ## Install
 
 0. **Install BootMii and/or Priiloader first.** I took time to make sure that this `.wad` is safe, but one should always have protections in place in case of a banner brick.
