@@ -1,4 +1,4 @@
-# mGBA GX Channel Forwarder
+# mGBA GX Forwarder Channel
 
 ## Screenshots
 
