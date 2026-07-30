@@ -173,3 +173,9 @@ Region       Free
 NAND blocks  18
 Looks for    apps/mGBAGX/boot.dol   on SD or USB
 ```
+
+---
+
+#### AI Disclosure
+
+The entirety of *this* `.md` file was generated using Claude Code.
