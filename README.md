@@ -24,7 +24,7 @@
 
 > **Install BootMii and/or Priiloader first.** I took time to make sure that this `.wad` is safe, but one should always have protections in place in case of a banner brick.
 
-1. Download the compiled `.wad` on the releases page.
+1. Download the `.zip` from the releases page and extract the `.wad` inside.
 2. Install using the WAD manager of your choice.
 3. Ensure mGBA-GX is installed to `apps/mGBAGX/boot.dol` on SD or USB — that exact folder name.
 
