@@ -22,6 +22,13 @@
 
 - Use the WAD manager you used to install the channel to uninstall it, or, delete it from the Wii system settings.
 
+## License
+
+GPLv3 — see `LICENSE`. This channel is derived from GPL'd work:
+the forwarder from [FCE Ultra GX](https://github.com/dborth/fceugx) and the banner/icon
+from [Snes9x GX](https://github.com/dborth/snes9xgx). Modifications are documented in
+[BUILDING.md](BUILDING.md), which also covers rebuilding from the assets in this repo.
+
 ## Credits
 
 ### Inspiration/Channel forwarded to
