@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<xmlyt version="2.1.12BETA" brlyt_version="0008">
+			<tag type="lyt1">
+				<drawnFromMiddle>01</drawnFromMiddle>
+				<size>
+					<width>608.000000</width>
+					<height>456.000000</height>
+				</size>
+			</tag>
+			<tag type="txl1">
+				<entries>
+					<name>Background.tpl</name>
+					<name>Fawful01.tpl</name>
+					<name>Samus01.tpl</name>
+					<name>AWars01.tpl</name>
+					<name>Lucas01.tpl</name>
+					<name>Stripe.tpl</name>
+					<name>Bars.tpl</name>
+					<name>Controller.tpl</name>
+					<name>Logo.tpl</name>
+					<name>TitleBar.tpl</name>
+				</entries>
+			</tag>
+			<tag type="fnl1">
+				<entries>
+					<name>RevoIpl_RodinNTLGPro_DB_32_I4.brfnt</name>
+				</entries>
+			</tag>
+			<tag type="mat1">
+				<entries name="BackgroundMaterial">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Background.tpl">
+						<wrap_s>GX_REPEAT</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>2.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+				</entries>
+				<entries name="Fawful01MaterialA">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Fawful01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="Samus01MaterialA">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Samus01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="AWars01MaterialA">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="AWars01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="Lucas01MaterialA">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Lucas01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="Fawful01MaterialB">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Fawful01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="Samus01MaterialB">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Samus01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="AWars01MaterialB">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="AWars01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="Lucas01MaterialB">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Lucas01.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="StripeMaterial">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Stripe.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="BarsMaterial">
+					<colors>
+						<forecolor r="176" g="179" b="179" a="0" />
+						<backcolor r="58" g="57" b="135" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Bars.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="ControllerMaterial">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Controller.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="LogoMaterial">
+					<colors>
+						<forecolor r="0" g="0" b="0" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="Logo.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="TitleBarMaterial">
+					<colors>
+						<forecolor r="176" g="179" b="179" a="0" />
+						<backcolor r="58" g="57" b="135" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<texture name="TitleBar.tpl">
+						<wrap_s>GX_CLAMP</wrap_s>
+						<wrap_t>GX_CLAMP</wrap_t>
+					</texture>
+					<TextureSRT>
+						<XTrans>0.0000000000</XTrans>
+						<YTrans>0.0000000000</YTrans>
+						<Rotate>0.0000000000</Rotate>
+						<XScale>1.0000000000</XScale>
+						<YScale>1.0000000000</YScale>
+					</TextureSRT>
+					<CoordGen>
+						<tgen_type>GX_TG_MTX2x4</tgen_type>
+						<tgen_src>GX_TG_TEX0</tgen_src>
+						<MatrixSource>GX_TEXMTX0</MatrixSource>
+						<padding>00</padding>
+					</CoordGen>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+				<entries name="TitleText">
+					<colors>
+						<forecolor r="255" g="255" b="255" a="0" />
+						<backcolor r="255" g="255" b="255" a="255" />
+						<colorReg3 r="255" g="255" b="255" a="255" />
+						<tev_k1 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k2 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k3 r="ff" g="ff" b="ff" a="ff" />
+						<tev_k4 r="ff" g="ff" b="ff" a="ff" />
+					</colors>
+					<AlphaCompare>
+						<comp0>GX_ALWAYS</comp0>
+						<comp1>GX_ALWAYS</comp1>
+						<aop>GX_AOP_AND</aop>
+						<ref0>00</ref0>
+						<ref1>00</ref1>
+					</AlphaCompare>
+				</entries>
+			</tag>
+			<tag type="pan1" name="RootPane" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>0.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>608.000000</width>
+					<height>456.000000</height>
+				</size>
+			</tag>
+			<tag type="pas1" />
+			<tag type="pic1" name="BackgroundPicture" userdata="e">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>01</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>0.0000000000000000000000000</x>
+					<y>53.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>1024.000000</width>
+					<height>332.000000</height>
+				</size>
+				<material name="BackgroundMaterial" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pan1" name="CharacterPaneBase" userdata="e">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>01</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>0.0000000000000000000000000</x>
+					<y>100.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>30.000000</width>
+					<height>40.000000</height>
+				</size>
+			</tag>
+			<tag type="pas1" />
+			<tag type="pan1" name="CharacterPaneA" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>01</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>512.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>30.000000</width>
+					<height>40.000000</height>
+				</size>
+			</tag>
+			<tag type="pas1" />
+			<tag type="pic1" name="Fawful01PictureA" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-384.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="Fawful01MaterialA" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pic1" name="Samus01PictureA" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-128.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="Samus01MaterialA" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pic1" name="AWars01PictureA" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>128.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="AWars01MaterialA" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pic1" name="Lucas01PictureA" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>384.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="Lucas01MaterialA" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pae1" />
+			<tag type="pan1" name="CharacterPaneB" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>01</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-512.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>30.000000</width>
+					<height>40.000000</height>
+				</size>
+			</tag>
+			<tag type="pas1" />
+			<tag type="pic1" name="Fawful01PictureB" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-384.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="Fawful01MaterialB" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pic1" name="Samus01PictureB" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-128.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="Samus01MaterialB" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pic1" name="AWars01PictureB" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>128.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="AWars01MaterialB" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pic1" name="Lucas01PictureB" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>384.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="Lucas01MaterialB" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pae1" />
+			<tag type="pae1" />
+			<tag type="pic1" name="StripePicture" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>01</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>0.0000000000000000000000000</x>
+					<y>48.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>830.000000</width>
+					<height>200.000000</height>
+				</size>
+				<material name="StripeMaterial" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pic1" name="BarsPicture" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>0.0000000000000000000000000</x>
+					<y>-80.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>128.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>8.000000</width>
+					<height>20.000000</height>
+				</size>
+				<material name="BarsMaterial" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pan1" name="ControllerPane" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>01</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-186.0000000000000000000000000</x>
+					<y>-20.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>30.000000</width>
+					<height>40.000000</height>
+				</size>
+			</tag>
+			<tag type="pas1" />
+			<tag type="pic1" name="ControllerPicture" userdata="e">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>0.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>256.000000</width>
+					<height>136.000000</height>
+				</size>
+				<material name="ControllerMaterial" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pae1" />
+			<tag type="pan1" name="LogoPane" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>01</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>190.0000000000000000000000000</x>
+					<y>-25.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>30.000000</width>
+					<height>40.000000</height>
+				</size>
+			</tag>
+			<tag type="pas1" />
+			<tag type="pic1" name="LogoPicture" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>0.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>456.000000</width>
+					<height>128.000000</height>
+				</size>
+				<material name="LogoMaterial" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="0.000000" t="0.000000" />
+						<coordTR s="1.000000" t="0.000000" />
+						<coordBL s="0.000000" t="1.000000" />
+						<coordBR s="1.000000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="pae1" />
+			<tag type="pan1" name="TitlePane" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>01</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>274.0000000000000000000000000</x>
+					<y>0.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>128.000000</width>
+					<height>128.000000</height>
+				</size>
+			</tag>
+			<tag type="pas1" />
+			<tag type="pic1" name="TitleBarPicture" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Center" y="Center" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>-360.0000000000000000000000000</x>
+					<y>196.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>832.000000</width>
+					<height>64.000000</height>
+				</size>
+				<material name="TitleBarMaterial" />
+				<colors>
+					<vtxColorTL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorTR r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBL r="ff" g="ff" b="ff" a="ff" />
+					<vtxColorBR r="ff" g="ff" b="ff" a="ff" />
+				</colors>
+				<coordinates>
+					<set>
+						<coordTL s="-4.600000" t="0.000000" />
+						<coordTR s="3.400000" t="0.000000" />
+						<coordBL s="-4.600000" t="1.000000" />
+						<coordBR s="3.400000" t="1.000000" />
+					</set>
+				</coordinates>
+			</tag>
+			<tag type="txt1" name="TitleText" userdata="">
+				<visible>01</visible>
+				<WidescreenAffected>00</WidescreenAffected>
+				<flag>00</flag>
+				<origin x="Right" y="Top" />
+				<alpha>ff</alpha>
+				<padding>00</padding>
+				<translate>
+					<x>5.0000000000000000000000000</x>
+					<y>190.0000000000000000000000000</y>
+					<z>0.0000000000000000000000000</z>
+				</translate>
+				<rotate>
+					<x>0.00000000000000000000</x>
+					<y>0.00000000000000000000</y>
+					<z>0.00000000000000000000</z>
+				</rotate>
+				<scale>
+					<x>1.0000000000</x>
+					<y>1.0000000000</y>
+				</scale>
+				<size>
+					<width>206.000000</width>
+					<height>17.400000</height>
+				</size>
+				<length>0030-0030</length>
+				<material name="TitleText" />
+				<font index="0">
+					<xsize>16.200001</xsize>
+					<ysize>19.379999</ysize>
+					<charsize>0.000000</charsize>
+					<linesize>0.000000</linesize>
+					<alignment x="Center" y="Top" />
+					<whatAmI>00</whatAmI>
+				</font>
+				<topcolor r="ff" g="ff" b="ff" a="ff" />
+				<bottomcolor r="ff" g="ff" b="ff" a="ff" />
+				<text>006d00470042004100200047005800000000000000000000000000000000000000000000000000000000000000000000</text>
+			</tag>
+			<tag type="pae1" />
+			<tag type="pae1" />
+			<tag type="grp1" name="RootGroup" />
+		</xmlyt>
