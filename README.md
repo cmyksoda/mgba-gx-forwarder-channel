@@ -103,3 +103,7 @@ GPLv3 — see [`LICENSE`](LICENSE). This channel is derived from GPL'd work: the
 | `BUILDING.md` | how to rebuild, and what was changed in the GPL'd components |
 
 <sub><sup>There is one(1) unused silly texture leftover from the Snes9x GX forwarder, can you find it?</sup></sub>
+
+---
+
+*This project was made with AI assistance. For more information, see [my AI usage statement](https://github.com/cmyksoda/cmyksoda/blob/main/AI_USAGE.md).*
