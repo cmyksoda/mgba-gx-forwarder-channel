@@ -32,6 +32,18 @@
 
 - Use the WAD manager you used to install the channel to uninstall it, or, delete it from the Wii system settings.
 
+## Repository contents
+
+| path | |
+|---|---|
+| `banner/` | source PNGs for the banner textures |
+| `icon/` | source PNGs for the icon textures |
+| `layout/` | `.brlyt`/`.brlan` layouts and animations extracted from the released WAD, plus their Benzin XML sources |
+| `splash/` | forwarder loading screens (4:3 and 16:9) |
+| `BUILDING.md` | how to rebuild, and what was changed in the GPL'd components |
+
+<sub><sup>There is one(1) unused silly texture leftover from the Snes9x GX forwarder, can you find it?</sup></sub>
+
 ## Credits
 
 ### Inspiration/Channel forwarded to
@@ -87,22 +99,10 @@ The banner sound is [this chiptune loop](https://www.looperman.com/loops/detail/
 
 ## License
 
-GPLv3 — see [`LICENSE`](LICENSE). This channel is derived from GPL'd work: the forwarder from
+mGBA GX Forwarder Channel is free software under the [GNU General Public License, version 3](LICENSE). This channel is derived from GPL'd work: the forwarder from
 [FCE Ultra GX](https://github.com/dborth/fceugx) and the banner/icon from
 [Snes9x GX](https://github.com/dborth/snes9xgx). Every modification is documented in
 [BUILDING.md](BUILDING.md), which also covers rebuilding the WAD from the assets here.
-
-## Repository contents
-
-| path | |
-|---|---|
-| `banner/` | source PNGs for the banner textures |
-| `icon/` | source PNGs for the icon textures |
-| `layout/` | `.brlyt`/`.brlan` layouts and animations extracted from the released WAD, plus their Benzin XML sources |
-| `splash/` | forwarder loading screens (4:3 and 16:9) |
-| `BUILDING.md` | how to rebuild, and what was changed in the GPL'd components |
-
-<sub><sup>There is one(1) unused silly texture leftover from the Snes9x GX forwarder, can you find it?</sup></sub>
 
 ---
 
